@@ -1,0 +1,14 @@
+# Production backend dependencies; audited on Windows x64 / Python 3.12.
+# Keras is pinned to preserve the working TensorFlow model loader.
+# Other transitive dependencies are installed by pip; this is not a full lockfile.
+Flask==3.1.0
+flask-cors==6.0.5
+tensorflow==2.21.0
+keras==3.14.0
+numpy==2.4.4
+librosa==0.11.0
+imageio-ffmpeg==0.6.0
+opencv-python==4.14.0.94
+torch==2.13.0
+transformers==5.15.1
+openai-whisper==20250625

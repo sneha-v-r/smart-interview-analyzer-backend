@@ -1,0 +1,4 @@
+backend/models/text/distilbert_model_v2/*.safetensors filter=lfs diff=lfs merge=lfs -text
+backend/models/audio/*.keras filter=lfs diff=lfs merge=lfs -text
+backend/models/video/*.keras filter=lfs diff=lfs merge=lfs -text
+backend/tools/*.exe filter=lfs diff=lfs merge=lfs -text

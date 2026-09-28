@@ -1,0 +1,14 @@
+{
+  "starting_model": "D:\\smart\\models\\text\\distilbert_model",
+  "max_length": 256,
+  "best_validation_accuracy": 0.9375,
+  "fine_tune_rows": 124,
+  "validation_rows": 32,
+  "external_test_rows": 60,
+  "removed_exact_overlap_rows": 20,
+  "classes": [
+    "Average",
+    "Good",
+    "Poor"
+  ]
+}
